@@ -1,0 +1,26 @@
+<nocraftingchallenge>
+
+<!--================================
+	OVERHAUL INTRO QUEST
+	================================ -->
+	<!-- Basic Survival 1 - Place a Bedroll (NO CRAFT) /> -->
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='FetchKeep']"/>
+	<remove xpath="/quests/quest[@id='quest_BasicSurvival1']/objective[@type='Craft']"/>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Exp']/@value">300</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival1']/reward[@type='Quest']/@id">quest_BasicSurvival4</set>
+	<append xpath="/quests/quest[@id='quest_BasicSurvival1']">
+		<reward type="Item" id="plantFiberPants"/>
+		<reward type="Item" id="plantFiberShirt"/>
+		<reward type="Item" id="plantFiberHood"/>
+		<reward type="Item" id="plantFiberShoes"/>
+		<reward type="Item" id="plantFiberGloves"/>
+	</append>
+
+	<!-- Basic Survival 4 - Wear Plant Fiber Clothing /> -->
+	<set xpath="/quests/quest[@id='quest_BasicSurvival4']/reward[@type='Exp']/@value">400</set>
+	<set xpath="/quests/quest[@id='quest_BasicSurvival4']/reward[@type='Quest']/@id">quest_whiteRiverCitizen1</set>
+	<append xpath="/quests/quest[@id='quest_BasicSurvival4']">
+		<reward type="SkillPoints" value="4" chainreward="true"/>
+	</append>
+
+</nocraftingchallenge>

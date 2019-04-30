@@ -1,0 +1,8 @@
+<nocraftingchallenge>
+<!--================================
+	THIS IS THE EASY PART
+	Nuke All Recipes
+	================================ -->
+	<remove xpath="//recipe[@*]" />
+
+</nocraftingchallenge>

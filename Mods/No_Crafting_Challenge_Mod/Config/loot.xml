@@ -1,0 +1,12 @@
+<nocraftingchallenge>
+
+<!--================================
+	DOUBLE LOOT DROPS FOR MEDICINE & and most FOOD and DRINKS
+	================================ -->
+	<set xpath="/lootcontainers/lootgroup[@name='medicine']/@count">2</set> <!-- from 1 -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='cannedfood']" name="count">2</setattribute> <!-- give a count of 2 -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='coldfood']" name="count">2</setattribute> <!-- give a count of 2 -->
+	<setattribute xpath="/lootcontainers/lootgroup[@name='drinks']" name="count">2</setattribute> <!-- give a count of 2 -->
+	<set xpath="/lootcontainers/lootgroup[@name='beverages']/@count">2</set> <!-- from 1 -->
+
+</nocraftingchallenge>

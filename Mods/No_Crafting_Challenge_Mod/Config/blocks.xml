@@ -1,0 +1,271 @@
+<nocraftingchallenge>
+<!--================================
+	ASSIGN ECONOMIC VALUES AND REPAIR MATERIALS TO MOST ITEMS ADDED TO TRADERS (from Home Depot Mod)
+	================================ -->
+
+	<append xpath="/blocks/block[@name='cntWallOven']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='utilitySink']">
+			<property class="RepairItems"> <property name="resourceMetalPipe" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='wallHungSink']">
+			<property class="RepairItems"> <property name="resourceMetalPipe" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntMicrowaveOvenVer1Open']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='mirror']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='showerHead']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntMedicineCabinetFaucetOpen']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+			<property name="EconomicValue" value="44"/>
+	</append>
+	<append xpath="/blocks/block[@name='cntMedicineCabinetOpen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceMetalPipe" value="1"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntNightstandOpen']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='radiatorHouse01']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='schoolDesk']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='shoppingBasketEmpty']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='leatherCouchSofa2']">
+			<property class="RepairItems"> <property name="resourceLeather" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='barracksChair']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='paintingBen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntCharcoalGrillOpen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntGasGrillOpen']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='gurneyBed']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntLaundryBasketVer1Empty']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntFancyGarbageCan']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntDumpster']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntWaterCoolerBottle']">
+			<property name="EconomicValue" value="14"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='satelliteDish']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='graveStone01']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceConcreteMix" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='decoStationaryBike']">
+			<property name="EconomicValue" value="144"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='decoTreadmill']">
+			<property name="EconomicValue" value="144"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='decoWeightBar']">
+			<property name="EconomicValue" value="144"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntLuggageMediumOpen']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntWeaponsBagSmall']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntSuitcase']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntBackpack01']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='airConditionVentFan']">
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+
+	<append xpath="/blocks/block[@name='commercialBlindsTop']">
+			<property class="RepairItems"> <property name="resourceCloth" value="4"/> </property>
+	</append>
+
+	<append xpath="/blocks/block[@name='signRoadArrowheadApache']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapIron" value="4"/> </property>
+	</append>
+
+	<!-- assiging/fixing EconomicValue and Repair Materials of items already included in Traders -->
+	<append xpath="/blocks/block[@name='cntWaterCoolerFull']">
+			<property name="EconomicValue" value="44"/>
+			<property class="RepairItems"> <property name="resourceScrapPolymers" value="4"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='cntBookcaseFull']">
+			<property name="EconomicValue" value="24"/>
+			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	</append>
+
+<!--================================
+	FIX SNOWBERRY GROWTH STATE (from Home Depot Mod)
+	================================ -->
+	<set xpath="/blocks/block[@name='plantedSnowberry2']/property[@name='PlantGrowing.Next']/@value">plantedSnowberry3HarvestPlayer</set>
+
+<!--================================
+	OTHER RESPAWN ITEMS FUNCTION MORE LIKE BEDROLLS (ie.relocatable) (from Home Depot Mod)
+	================================ -->
+	<append xpath="/blocks">
+		<block name="Home Mattress">
+			<property name="CustomIcon" value="mattressFlat"/>
+			<property name="DescriptionKey" value="bedGroupDesc"/>
+			<property name="Class" value="SleepingBag"/>
+			<property name="Material" value="Mfurniture"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Furniture/mattress_flat" param1="main_mesh"/>
+			<property name="DisplayType" value="blockMulti" />
+			<property name="MultiBlockDim" value="1,1,2"/>
+			<property name="FallDamage" value=".6"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="5"/>
+				<property name="resourceCotton" value="10"/>
+			</property>
+			<property name="CanPickup" value="true"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="EconomicValue" value="60"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+
+		<block name="Home Small Bed">
+			<property name="Extends" value="Home Mattress"/>
+			<property name="CustomIcon" value="bed01"/>
+			<property name="Model" value="Furniture/bed01" param1="main_mesh"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="10"/>
+				<property name="resourceMetalPipe" value="5"/>
+			</property>
+			<property name="EconomicValue" value="244"/>
+		</block>
+
+		<block name="Home Large Bed">
+			<property name="Extends" value="Home Mattress"/>
+			<property name="CustomIcon" value="bed02"/>
+			<property name="Model" value="Furniture/bed02" param1="main_mesh"/>
+			<property name="MultiBlockDim" value="2,1,2"/>
+			<property class="RepairItems">
+				<property name="resourceCloth" value="40"/>
+				<property name="resourceSpring" value="1"/>
+				<property name="resourceWood" value="20"/>
+				<property name="resourceMetalPipe" value="2"/>
+			</property>
+			<property name="EconomicValue" value="2400"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+	</append>
+
+
+<!--================================
+	FIX SOME STRANGE (overlooked?) UPGRADES & REPAIRS (from Home Depot Mod)
+	================================ -->
+
+	<append xpath="/blocks/block[@name='woodFenceFarmSheet']">
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceSheet"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='woodFenceFarmSheetBroken1']">
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceFarmSheet"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='woodFenceFarmSheetBroken2']">
+		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceFarmSheet"/> </property>
+	</append>
+	<append xpath="/blocks/block[@name='whitePicketFenceSheet']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="wroughtIronFenceSheet"/>
+			<property name="Item" value="resourceScrapIron"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+	<append xpath="/blocks/block[@name='decoPicnicTable']">
+		<property class="RepairItems">
+			<property name="resourceWood" value="8"/>
+		</property>
+	</append>
+
+	<!-- Fix Wood Pillar 50 to be craftable and upgradable, which includes creating rWoodPillar50 & rWoodMetalPillar50 -->
+
+	<set xpath="/blocks/block[@name='woodPillar50']/property[@name='Extends']/@value">woodMaster</set>
+	<append xpath="/blocks/block[@name='woodPillar50']">
+		<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodPillar50"/> </property>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="rWoodPillar50">
+			<property name="Extends" value="rWoodMaster"/>
+			<property name="Shape" value="New"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Pole0.5m"/>
+			<property name="SortOrder2" value="0740"/> <!-- SortShape -->
+			<property name="LightOpacity" value="0"/>
+			<property name="UseGlobalUV" value="Local"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="67"/>
+			<property class="UpgradeBlock"> <property name="ToBlock" value="rWoodMetalPillar50"/> </property>
+			<property name="DowngradeBlock" value="woodPillar50"/>
+		</block>
+	</append>
+
+	<append xpath="/blocks">
+		<block name="rWoodMetalPillar50">
+			<property name="Extends" value="rWoodMetalMaster"/>
+			<property name="Shape" value="New"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Pole0.5m"/>
+			<property name="SortOrder2" value="0740"/> <!-- SortShape -->
+			<property name="LightOpacity" value="0"/>
+			<property name="UseGlobalUV" value="Local"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="67"/>
+			<property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronPillar50"/> </property>
+			<property name="DowngradeBlock" value="rWoodPillar50"/>
+		</block>
+	</append>
+
+</nocraftingchallenge>
