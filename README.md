@@ -41,3 +41,8 @@ Increase Food, Drink, and Medicine in Loot.
 HOW TO INSTALL
 --------------------------
 Simply download the No_Crafting_Challenge_Mod_v1.0.zip file (or whatever the current release is).  Decompress this directly into your 7 Days to Die install directory.  If you didn't have a "Mods" folder, this will create one.  You should be ready to do.
+
+SPECIAL THANKS
+--------------------------
+Thanks to JaWoodle.  Your No-Crafting Challenge videos inspired me making this mod in the first place.
+His You-Tube: https://www.youtube.com/channel/UCJNeiS810mGG98ctG45M1WA
