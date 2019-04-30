@@ -20,13 +20,14 @@ WHAT WAS DONE!?!
 Removed ALL Recipes
 
 Starting Mission Overhaul:  
-	1) Place Bedroll. (Added Bedroll to starting equipment)  
-	2) Wear PlantFiber Clothes. (Added PlantFiber Clothes to rewards)  
-	3) Find Trader
+   1) Place Bedroll. (Added Bedroll to starting equipment)  
+   2) Wear PlantFiber Clothes. (Added PlantFiber Clothes to rewards)  
+   3) Find Trader
 
 Trader always sells Bandages.  
 Increase Traders Food and Mediical Sales.  
-Add snowberry & supercorn seeds to Traders (Rarely & low level). Also, fix snowberry farming issues (from Home Depot Mod).  
+Add snowberry & supercorn seeds to Traders (Rarely & low level).  
+   Also, fix snowberry farming issues (from Home Depot Mod).  
 Add Bicycle to Traders (Rarely & low level)  
 Add Vehicles to Traders secret stash locked behind high Bartering. (from Home Depot Mod)  
 	Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.  
