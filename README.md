@@ -5,7 +5,7 @@ V1.0 by OrbitalBliss
 Welcome to the No Crafting Challenge Mod.  
 This Mod removes all crafting, and gives a slight bump to the Loot in regards to Food, Drink, and Medical Supplies.  
 The Trader gets a boost in those things as well, and can sell bedrolls.  
-Vehicles can show up at traders, but only poor quality Bicycles unless your Barttering is high enough.  
+Vehicles can show up at traders, but only poor quality Bicycles unless your Bartering is high enough.  
 Snowberries and Supercorn very rarely become options for farming.  
 And a number of small fixes I also included in my Home Depot Mod.  
 
