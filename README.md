@@ -7,7 +7,7 @@ This Mod removes all crafting, and gives a slight bump to the Loot in regards to
 The Trader gets a boost in those things as well, and can sell bedrolls.  
 Vehicles can show up at traders, but only poor quality Bicycles unless your Bartering is high enough.  
 Snowberries and Supercorn very rarely become options for farming.  
-And a number of small fixes I also included in my Home Depot Mod.  
+And a number of small fixes (I borrowed from my Home Depot Mod).  
 
 This mod is intended to be played with all setting set to default, but you do you.
 
@@ -35,7 +35,7 @@ Include Bedroll to traders sell list.  Also, LandClaim Block (rarely).
 
 Increase Food, Drink, and Medicine in Loot.
 
-Included other simple fixes from Home Depot Mod. (like previouly broken upgrades and repairing)  
+Included other simple fixes (like previouly broken upgrades and repairing) from my Home Depot Mod. 
 
 
 HOW TO INSTALL
