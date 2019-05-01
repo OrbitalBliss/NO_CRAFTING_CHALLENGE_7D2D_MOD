@@ -36,124 +36,12 @@
 		<item name="vehicleGyrocopterPlaceable" prob="0.02"/>
 	</append>
 
-	<!-- Pull Sleepable Matress out of Traders -->
-	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='mattressFlat']"/>
-	<!-- Include Respawn items (including Bedroll) & LandClaim as a new group to Traders (Bedroll alternatives from Home Depot Mod) --> 
+	<!-- Include Bedroll & LandClaim as a new group to Traders --> 
 	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
 		<trader_item_group name="sleepingbagsMovable" count="1">
 			<item name="bedroll"/>
-			<item name="Home Mattress" prob="0.4"/>
-			<item name="Home Small Bed" prob="0.2"/>
-			<item name="Home Large Bed" prob="0.05"/>
-			<item name="keystoneBlock" prob="0.2"/>
+			<item name="keystoneBlock" prob="0.1"/>
 		</trader_item_group>
 	</insertAfter>
-
-
-<!--================================
-	ADD EXISTING ITEMS TO TRADER STOCK LIST (just for fun, from Home Depot Mod)
-	================================ -->
-
-	<!-- include commercial blinds in the blinds selection -->
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
-		<item name="commercialBlindsTop" count="4,15"/>
-		<item name="commercialBlindsBottom" count="4,15"/>
-	</append>
-
-	<!-- include large pipes in a new decorative group -->
-	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeStraight']"/>
-	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']/item[@name='metalPipeValve']"/>
-	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
-		<trader_item_group name="decorativePipes" count="all">
-			<item name="metalPipeStraight" count="4,8"/>
-			<item name="metalPipeValve" count="2,3"/>
-			<item name="metalPipeCorner" count="2,4"/>
-			<item name="metalPipeJoint" count="2,4"/>
-			<item name="metalPipeCap" count="1,2"/>
-			<item name="metalPipeFlange" count="1,2"/>
-		</trader_item_group>
-	</insertAfter>
-
-	<!-- The bug list of added decorative items -->
-	<append xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlocks']">
-		<item group="sleepingbagsMovable"/>
-		<item group="decorativePipes"/>
-		<item name="cntWallOven"/>
-		<item name="utilitySink"/>
-		<item name="wallHungSink"/>
-		<item name="cntMicrowaveOvenVer1Closed"/>
-		<item name="cntRetroFridgeVer1Closed"/>
-		<item name="cntFridgeStainlessSteel"/>
-		<item name="cntStoveOldVer1Closed"/>
-		<item name="cntWashingMachine"/>
-		<item name="cntTrashCompactor"/>
-		<item name="mirror"/>
-		<item name="showerHead"/>
-		<item name="cntBathTubEmpty"/>
-		<item name="cntToilet01"/>
-		<item name="cntToilet02"/>
-		<item name="cntToilet03"/>
-		<item name="cntMedicineCabinetFaucetClosed"/>
-		<item name="cntMedicineCabinetClosed"/>
-		<item name="cntPillCaseClosed"/>
-		<item name="radiatorHouse01"/>
-		<item name="schoolDesk"/>
-		<item name="shoppingBasketEmpty"/>
-		<item name="leatherCouchSofa2"/>
-		<item name="barracksChair"/>
-		<item name="paintingBen"/>
-		<item name="paintingLorien"/>
-		<item name="paintingDerek"/>
-		<item name="paintingNoah"/>
-		<item name="paintingDuke"/>
-		<item name="paintingKen"/>
-		<item name="cntCharcoalGrillClosed"/>
-		<item name="cntCharcoalGrillOpen"/>
-		<item name="cntGasGrillClosed"/>
-		<item name="cntGasGrillOpen"/>
-		<item name="birdBathPlanter"/>
-		<item name="gurneyBed"/>
-		<item name="hospitalBed"/>
-		<item name="cntFileCabinetShortClosed"/>
-		<item name="cntFileCabinetTallClosed"/>
-		<item name="cntLockersTallDoubleClosed"/>
-		<item name="cntLockersTallMixClosed"/>
-		<item name="cntLockersTallMixLinkClosed"/>
-		<item name="heatVent"/>
-		<item name="heatVentIndustrial"/>
-		<item name="cntLaundryBasketVer1Empty"/>
-		<item name="cntFancyGarbageCan"/>
-		<item name="cntDumpster"/>
-		<item name="cntWaterCoolerBottle"/>
-		<item name="cntCoolerOpen"/>
-		<item name="satelliteDish"/>
-		<item name="satelliteDishSmall"/>
-		<item name="graveStone03"/>
-		<item name="decoMetalSlide"/>
-		<item name="decoSwingSet"/>
-		<item name="decoStationaryBike"/>
-		<item name="decoTreadmill"/>
-		<item name="decoWeightBar"/>
-		<item name="decoBenchPress"/>
-		<item name="cntDuffle01"/>
-		<item name="cntWeaponsBagSmall"/>
-		<item name="cntWeaponsBagLarge"/>
-		<item name="cntPurse01"/>
-		<item name="cntSuitcase"/>
-		<item name="cntLuggageMediumClosed"/>
-		<item name="cntLuggageBigClosed"/>
-		<item name="cntBackpack01"/>
-		<item name="cntBackpack03"/>
-		<item name="airConditionVentFan"/>
-		<item name="airConditionVentFanDouble"/>
-		<item name="signRoadStop"/>
-		<item name="signRoadStop4way"/>
-		<item name="signRoadSlow"/>
-		<item name="signRoadPrivate"/>
-		<item name="signRoadWork"/>
-	</append>
-
-	<!-- boost the number of decorative items from "2,7" -->
-	<set xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/item[@group='decorativeBlocks']/@count">5,14</set>
 
 </nocraftingchallenge>

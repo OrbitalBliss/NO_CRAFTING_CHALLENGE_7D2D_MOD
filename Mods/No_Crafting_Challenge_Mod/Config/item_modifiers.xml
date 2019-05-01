@@ -1,0 +1,11 @@
+<nocraftingchallenge>
+
+<!--================================
+	FIX ECONOMIC VALUE OF WEAPON/ARMOR MODS (killing recipes also killed their values)
+	================================ -->
+
+	<insertAfter xpath="/item_modifiers/item_modifier/property[@name='Stacknumber']">
+			<property name="EconomicValue" value="444"/>
+	</insertAfter>
+
+</nocraftingchallenge>
