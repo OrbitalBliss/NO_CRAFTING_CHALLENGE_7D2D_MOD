@@ -8,4 +8,173 @@
 	<set xpath="/items/item[@name='vehicle4x4TruckPlaceable']/property[@name='EconomicValue']/@value">15000</set> <!-- from 30000 -->
 	<set xpath="/items/item[@name='vehicleGyrocopterPlaceable']/property[@name='EconomicValue']/@value">25000</set> <!-- from 50000 -->
 
+<!--================================
+	PUT WEIGHTS ON STUFF SO THEY CAN STILL BE SCRAPPED EVEN THOUGH ALL THE RECIPES ARE GONE
+	================================ -->
+	<append xpath="/items/item[@name='meleeBoneShiv']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeCandyCaneShiv']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolHuntingKnife']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolClawHammer']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolStoneAxe']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeClubWood']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeClubIron']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeCandyCaneClub']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolTorch']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPickaxeIron']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolWrench']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolShovelStone']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolShovelIron']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSledgehammer']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolFireaxeIron']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolHoeIron']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolWireTool']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPaintTool']">
+		<property name="Weight" value="10"/>
+	</append>
+
+	<append xpath="/items/item[@name='gunBlunderbuss']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='gunWoodenBow']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='gunCrossbow']">
+		<property name="Weight" value="10"/>
+	</append>
+	
+	<append xpath="/items/item[@name='ammo9mmBullet']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='ammoShotgunShell']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='ammoShotgunSlug']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='ammoBlunderbuss']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='ammoRocketHE']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='ammoGasCan']">
+		<property name="Weight" value="600"/>
+	</append>
+	<append xpath="/items/item[@name='ammoArrowStone']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='ammoCrossbowBoltStone']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='ammoCrossbowBoltIron']">
+		<property name="Weight" value="10"/>
+	</append>
+	
+	<append xpath="/items/item[@name='leatherPoncho']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='backpackMedium']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='medicalSplint']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='bucketEmpty']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='bucketRiverWater']">
+		<property name="Weight" value="10"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceMetalPipe']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceArrowHeadIron']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceArrowHeadSteelAP']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceBulletCasing']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceBulletCasingSteel']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceBulletTip']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceNail']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceRocketTip']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='resourceRocketCasing']">
+		<property name="Weight" value="10"/>
+	</append>
+
+	<append xpath="/items/item[@name='toolCookingGrill']">
+		<property name="Weight" value="10"/>
+	</append>
+
+	<append xpath="/items/item[@name='partsMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='armorClothMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='armorLeatherMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='armorMilitaryMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='armorScrapMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='armorIronMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='armorSteelMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+	<append xpath="/items/item[@name='plantFiberClothingMaster']">
+		<property name="Weight" value="10"/>
+	</append>
+
 </nocraftingchallenge>

@@ -17,14 +17,6 @@
 			<wildcard_forge_category />
 		</recipe>
 
-		<recipe name="resourceScrapPolymers" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
-			<wildcard_forge_category />
-		</recipe>
-
-		<recipe name="resourceScrapPolymers" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
-			<wildcard_forge_category />
-		</recipe>
-
 		<recipe name="resourceElectricParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
 			<wildcard_forge_category />
 		</recipe>
