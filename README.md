@@ -25,19 +25,18 @@ Starting Mission Overhaul:
    3) Find Trader
 
 Trader always sells Bandages.  
-Increase Traders Food and Mediical Sales.  
+Increase Traders Food and Medical Sales.  
 Add snowberry & supercorn seeds to Traders (Rarely & low level).  
    Also, fix snowberry farming issues (from Home Depot Mod).  
 Add Bicycle to Traders (Rarely & low level)  
 Add Vehicles to Traders secret stash locked behind high Bartering. (from Home Depot Mod)  
 	Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.  
-Include Bedroll (and bedroll-like items) to traders.  Also, LandClaim Block (rarely).  
-	Added Home Depot bedroll substitute fixes, and included them in Traders sell list.
-
-Included other simple fixes from Home Depot Mod. (like previouly broken upgrades and repairing)  
-Add a lot of other decorative stuff to Traders, for really no good reason. (stuff from my Home Depot Mod)
+Include Bedroll to traders sell list.  Also, LandClaim Block (rarely).  
 
 Increase Food, Drink, and Medicine in Loot.
+
+Included other simple fixes from Home Depot Mod. (like previouly broken upgrades and repairing)  
+
 
 HOW TO INSTALL
 --------------------------
