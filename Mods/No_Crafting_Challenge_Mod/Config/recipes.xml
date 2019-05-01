@@ -2,7 +2,81 @@
 <!--================================
 	THIS IS THE EASY PART
 	Nuke All Recipes
+	BUT PUT SCRAPPING BACK IN
 	================================ -->
 	<remove xpath="//recipe[@*]" />
+
+	<!-- * * * * * * * * * * * * scraps * * * * * * * * * * * * -->
+	<append xpath="/recipes">
+ 
+		<recipe name="resourceMilitaryFiber" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceScrapPolymers" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceScrapPolymers" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceScrapPolymers" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceElectricParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceMechanicalParts" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceBrokenGlass" count="1" tooltip="ttScrapMetalBrass"  always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceCloth" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceLeather" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourcePaper" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceRockSmall" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceScrapBrass" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceScrapIron" count="1" tooltip="ttScrapMetalIron" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceScrapLead" count="1" tooltip="ttScrapMetalLead" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceWood" count="1" tooltip="ttScrapMetalLead" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceYuccaFibers" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+		<recipe name="resourceClayLump" count="1" tooltip="ttScrapMetalBrass" always_unlocked="true">
+			<wildcard_forge_category />
+		</recipe>
+
+	</append>
 
 </nocraftingchallenge>
