@@ -40,8 +40,8 @@ Included other simple fixes (like previouly broken upgrades and repairing) from 
 
 HOW TO INSTALL
 --------------------------
-Simply download the No_Crafting_Challenge_Mod_v1.0.zip file (or whatever the current release is).
-Do NOT just click "Clone or download" or you'll be downloading stuff you don't want/need.
+Simply download the No_Crafting_Challenge_Mod_v1.0.zip file (or whatever the current release is).  
+Do NOT just click "Clone or download" or you'll be downloading stuff you don't want/need.  
 Decompress this ZIP directly into your 7 Days to Die install directory.  If you didn't have a "Mods" folder, this will create one.  You should be ready to do.  Type 'Home' into your crafting search bar to see most of the things added.
 
 SPECIAL THANKS
