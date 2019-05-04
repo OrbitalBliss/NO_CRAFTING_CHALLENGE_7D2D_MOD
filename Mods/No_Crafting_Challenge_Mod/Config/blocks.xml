@@ -12,6 +12,19 @@
 			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
 	</append>
 
+<!--================================
+	PUT WEIGHTS ON STUFF SO THEY CAN STILL BE SCRAPPED EVEN THOUGH ALL THE RECIPES ARE GONE
+	================================ -->
+	<append xpath="/blocks/block[@name='toolCookingPot']">
+		<property name="Weight" value="5"/>
+	</append>
+	<append xpath="/blocks/block[@name='woodChair1']">
+		<property name="Weight" value="3"/>
+	</append>
+	<append xpath="/blocks/block[@name='oldChair1']">
+		<property name="Weight" value="3"/>
+	</append>
+
 
 <!--================================
 	FIX SNOWBERRY GROWTH STATE (from Home Depot Mod)
