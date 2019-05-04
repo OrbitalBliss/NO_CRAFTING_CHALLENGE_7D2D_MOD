@@ -10,6 +10,7 @@
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
 		<item name="medicalBandage" count="6,10"/>
 		<item name="medicalFirstAidBandage" count="2,4"/>
+		<item name="meleeToolTorch" count="1,3"/>
 	</append>
 
 	<!-- Include Snowberry & SuperCorn Seeds Rarely in Trader Items -->

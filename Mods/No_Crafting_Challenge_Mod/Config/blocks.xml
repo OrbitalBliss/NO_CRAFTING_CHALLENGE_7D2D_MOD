@@ -19,10 +19,10 @@
 		<property name="Weight" value="5"/>
 	</append>
 	<append xpath="/blocks/block[@name='woodChair1']">
-		<property name="Weight" value="3"/>
+		<property name="Weight" value="6"/>
 	</append>
 	<append xpath="/blocks/block[@name='oldChair1']">
-		<property name="Weight" value="3"/>
+		<property name="Weight" value="6"/>
 	</append>
 
 
