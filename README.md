@@ -24,7 +24,7 @@ Starting Mission Overhaul:
    2) Wear PlantFiber Clothes. (Added PlantFiber Clothes to rewards)  
    3) Find Trader
 
-Trader always sells Bandages.  
+Trader (almost) always sells Bandages.  
 Increase Traders Food and Medical Sales.  
 Add snowberry & supercorn seeds to Traders (Rarely & low level).  
    Also, fix snowberry farming issues (from Home Depot Mod).  
