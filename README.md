@@ -52,5 +52,4 @@ You should be ready to go.
 
 SPECIAL THANKS
 --------------------------
-Thanks to JaWoodle.  Your No-Crafting Challenge videos inspired me to make this mod in the first place.  
-His You-Tube: https://www.youtube.com/channel/UCJNeiS810mGG98ctG45M1WA
+Thanks to [JaWoodle on YouTube](https://www.youtube.com/channel/UCJNeiS810mGG98ctG45M1WA).  Your No-Crafting Challenge videos inspired me to make this mod in the first place.
