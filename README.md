@@ -49,7 +49,6 @@ Do NOT just click "Clone or download" or you'll be downloading stuff you don't w
 Decompress this ZIP directly into your 7 Days to Die install directory.  
 If you didn't have a "Mods" folder, this will create one.  
 You should be ready to go.  
-Type 'Home' into your crafting search bar to see most of the things added.
 
 SPECIAL THANKS
 --------------------------
