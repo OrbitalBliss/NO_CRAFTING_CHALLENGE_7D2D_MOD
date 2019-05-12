@@ -17,23 +17,27 @@ I hope this fills out your players gaming experiences.  Have fun!!
 WHAT WAS DONE!?!
 ==================
 
-Removed ALL Recipes
+Removed ALL Recipes (and fixed resulting issues; broken scrapping and weapon/armor mod values)
 
 Starting Mission Overhaul:  
    1) Place Bedroll. (Added Bedroll to starting equipment)  
    2) Wear PlantFiber Clothes. (Added PlantFiber Clothes to rewards)  
    3) Find Trader
 
-Trader (almost) always sells Bandages.  
-Increase Traders Food and Medical Sales.  
-Add snowberry & supercorn seeds to Traders (Rarely & low level).  
-   Also, fix snowberry farming issues (from Home Depot Mod).  
-Add Bicycle to Traders (Rarely & low level)  
-Add Vehicles to Traders secret stash locked behind high Bartering. (from Home Depot Mod)  
-	Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.  
-Include Bedroll to traders sell list.  Also, LandClaim Block (rarely).  
-
 Increase Food, Drink, and Medicine in Loot.
+
+Increase Traders Food and Medical Sales.  
+- Trader (almost) always sells Bandages.  
+
+Add Snowberry & Supercorn seeds to Traders (Rarely & low level).  
+- Also, fix Snowberry farming issues (from Home Depot Mod).  
+
+Add Vehicles to Traders (from Home Depot Mod)  
+- Add Bicycle to Traders (Rarely & low level)  
+- Add all Vehicles to Traders secret stash locked behind high Bartering. 
+- Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.  
+
+Include Bedroll to traders sell list.  Also, LandClaim Block (rarely).  
 
 Included other simple fixes (like previouly broken upgrades and repairing) from my Home Depot Mod. 
 
@@ -42,7 +46,10 @@ HOW TO INSTALL
 --------------------------
 Simply download the No_Crafting_Challenge_Mod_v1.0.zip file (or whatever the current release is).  
 Do NOT just click "Clone or download" or you'll be downloading stuff you don't want/need.  
-Decompress this ZIP directly into your 7 Days to Die install directory.  If you didn't have a "Mods" folder, this will create one.  You should be ready to do.  Type 'Home' into your crafting search bar to see most of the things added.
+Decompress this ZIP directly into your 7 Days to Die install directory.  
+If you didn't have a "Mods" folder, this will create one.  
+You should be ready to go.  
+Type 'Home' into your crafting search bar to see most of the things added.
 
 SPECIAL THANKS
 --------------------------
