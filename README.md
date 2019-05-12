@@ -46,5 +46,5 @@ Decompress this ZIP directly into your 7 Days to Die install directory.  If you 
 
 SPECIAL THANKS
 --------------------------
-Thanks to JaWoodle.  Your No-Crafting Challenge videos inspired me making this mod in the first place.  
+Thanks to JaWoodle.  Your No-Crafting Challenge videos inspired me to make this mod in the first place.  
 His You-Tube: https://www.youtube.com/channel/UCJNeiS810mGG98ctG45M1WA
