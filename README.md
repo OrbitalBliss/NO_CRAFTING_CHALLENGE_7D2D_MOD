@@ -29,7 +29,7 @@ Increase Food, Drink, and Medicine in Loot.
 Increase Traders Food and Medical Sales.  
 - Trader (almost) always sells Bandages.  
 
-Add Snowberry & Supercorn seeds to Traders (Rarely & low level).  
+Add Snowberry & Supercorn seeds to Traders (Rarely).  
 - Also, fix Snowberry farming issues (from Home Depot Mod).  
 
 Add Vehicles to Traders (from Home Depot Mod)  
