@@ -33,31 +33,4 @@
 	<set xpath="/blocks/block[@name='plantedSnowberry2']/property[@name='PlantGrowing.Next']/@value">plantedSnowberry3HarvestPlayer</set>
 
 
-<!--================================
-	FIX SOME STRANGE (overlooked?) UPGRADES & REPAIRS (from Home Depot Mod)
-	================================ -->
-
-	<append xpath="/blocks/block[@name='woodFenceFarmSheet']">
-		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceSheet"/> </property>
-	</append>
-	<append xpath="/blocks/block[@name='woodFenceFarmSheetBroken1']">
-		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceFarmSheet"/> </property>
-	</append>
-	<append xpath="/blocks/block[@name='woodFenceFarmSheetBroken2']">
-		<property class="UpgradeBlock"> <property name="ToBlock" value="woodFenceFarmSheet"/> </property>
-	</append>
-	<append xpath="/blocks/block[@name='whitePicketFenceSheet']">
-		<property class="UpgradeBlock">
-			<property name="ToBlock" value="wroughtIronFenceSheet"/>
-			<property name="Item" value="resourceScrapIron"/>
-			<property name="ItemCount" value="10"/>
-			<property name="UpgradeHitCount" value="4"/>
-		</property>
-	</append>
-	<append xpath="/blocks/block[@name='decoPicnicTable']">
-		<property class="RepairItems">
-			<property name="resourceWood" value="8"/>
-		</property>
-	</append>
-
 </nocraftingchallenge>
