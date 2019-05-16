@@ -1,0 +1,58 @@
+<nocraftingchallenge>
+
+<!--================================
+	RE-TOOL INTELLECT FOR XP-GAIN BONUS
+	================================ -->
+	<remove xpath="/progression/attributes/attribute[@name='attIntellect']/effect_group"/>
+	<append xpath="/progression/attributes/attribute[@name='attIntellect']">
+		<effect_group>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="0.0,0.40" level="1,9"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="0.5" level="10"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="0.52,0.70" level="11,20"/>
+		</effect_group>
+	</append>
+
+<!--================================
+	REMOVE OR FIX PERKS (mostly the crafting perks)
+	================================ -->
+	<!-- Remove the obviously craft-only perks. -->
+	<remove xpath="/progression/perks/perk[@name='perkHammerForge']"/>
+	<remove xpath="/progression/perks/perk[@name='perkGreaseMonkey']"/>
+	<remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']"/>
+	<remove xpath="/progression/perks/perk[@name='perkYeahScience']"/>
+	<remove xpath="/progression/perks/perk[@name='perkPhysician']"/> <!-- Remove this if you can get Physcian working -->
+	<remove xpath="/progression/perks/perk[@name='perkMasterChef']"/>
+
+	<!-- Fix Physician. Crafting gone, so lower INT requirements and spread out heal boost. (effect changed in buffs.xml) **DESCRIPTION DOESN'T WORK** -->
+<!-- NOT WORKING - NOT SURE WHY
+	<remove xpath="//perk[@name='perkPhysician']/level_requirements"/>
+	<append xpath="/progression/perks/perk[@name='perkPhysician']">
+		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="3" desc_key="reqIntellectLevel03"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="5" desc_key="reqIntellectLevel05"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="7" desc_key="reqIntellectLevel07"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+	</append>
+
+	<remove xpath="//perk[@name='perkPhysician']/effect_group/effect_description"/>
+	<append xpath="/progression/perks/perk[@name='perkPhysician']/effect_group">
+		<effect_description level="1" desc_base="All healing you perform is 10% more effective."/>
+		<effect_description level="2" desc_base="All healing you perform is 20% more effective."/>
+		<effect_description level="3" desc_base="All healing you perform is 40% more effective."/>
+		<effect_description level="4" desc_base="All healing you perform is 60% more effective."/>
+		<effect_description level="5" desc_base="All healing is now twice as effective. When healing others you receive the same benefits."/>
+	</append>
+-->
+
+	<!-- Fix Living Off The Land.  Crafting gone, but double Wild plants and level 1  **DESCRIPTION DOESN'T WORK**-->
+	<set xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@tags='wildCropsHarvest']/@value">1</set>
+	<remove xpath="//perk[@name='perkLivingOffTheLand']/effect_group/effect_description"/>
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group">
+			<effect_description level="1" desc_base="Harvest 2 items from Wild plants." />
+			<effect_description level="2" desc_base="Harvest 2 items from planted crops." />
+			<effect_description level="3" desc_base="Harvest 3 items from planted crops." />
+			<effect_description level="4" desc_base="Harvest 4 items from planted crops." />
+			<effect_description level="5" desc_base="Harvest 5 items from planted crops." />
+	</append>
+
+</nocraftingchallenge>

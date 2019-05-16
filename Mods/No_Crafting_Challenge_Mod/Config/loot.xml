@@ -9,4 +9,34 @@
 	<setattribute xpath="/lootcontainers/lootgroup[@name='drinks']" name="count">2</setattribute> <!-- give a count of 2 -->
 	<set xpath="/lootcontainers/lootgroup[@name='beverages']/@count">2</set> <!-- from 1 -->
 
+<!--================================
+	ADD VERY RARE BICYLES TO DUMPSTER LOOT
+	Maybe include #58 (shopping cart) #54 (shopping basket) #14 (mailbox)???
+	================================ -->
+	<append xpath="/lootcontainers/lootcontainer[@id='66']">
+		<item name="vehicleBicyclePlaceable" count="1" prob="0.03" quality="1,2"/>
+	</append>
+
+<!--================================
+	ADD RAMP FRAMES TO SOME LOOT
+	Maybe a few other containers????
+	================================ -->
+	<append xpath="/lootcontainers/lootcontainer[@id='88']">
+		<item name="woodFrameBlock" count="10,20"/>
+		<item name="rebarFrameRamp" count="10,15"/>
+		<item name="woodFrameRamp" count="10,15"/>
+	</append>
+
+	<append xpath="/lootcontainers/lootgroup[@name='workingStiffs']">
+		<item name="rebarFrameRamp" count="10,20" prob="0.5"/>
+		<item name="woodFrameRamp" count="10,20" prob="0.5"/>
+	</append>
+
+<!--================================
+	REMOVE RARE RECIPE BOOKS FROM LOOT (Just so they don't make you sad when you find them)
+	================================ -->
+	<set xpath="/lootcontainers/lootcontainer[@id='38']/item[@group='shamwaySafe']/@group">shamwaySafeFiller</set>
+	<remove xpath="/lootcontainers/lootcontainer[@id='63']/item[@group='herbalRecipes']"/>
+	<set xpath="/lootcontainers/lootcontainer[@id='39']/item[@group='brewerySafe']/@group">brewerySafeFiller</set>
+
 </nocraftingchallenge>

@@ -1,18 +1,24 @@
 <nocraftingchallenge>
 
 <!--================================
-	TRADER STOCK LIST ITEMS FOR NO CRAFTING CHALLENGE
+	ITEMS ADDED TO TRADER STOCK LISTS (THAT ALWAYS RESTOCK)
+	TO DO: Also Fixes the ALWAYS restock list to actually ALWAYS restock.
 	================================ -->
-
 	<!-- Include Bandages in Trader ALWAYS Items, and punch up gauranteed food and medical sales. -->
-	<set xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']/item[@group='foodAll']/@count">4,12</set> <!-- was 1,3 -->
 	<set xpath="/traders/trader_item_groups/trader_item_group[@name='medicine']/@count">2</set> <!-- was 1 -->
+	<set xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']/item[@group='foodAll']/@count">4,12</set> <!-- was 1,3 -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
 		<item name="medicalBandage" count="6,10"/>
 		<item name="medicalFirstAidBandage" count="2,4"/>
 		<item name="meleeToolTorch" count="1,3"/>
 	</append>
 
+	<!-- FIX traderAlways list to ALWAYS restock -->
+	<!-- DIDN'T WORK <setattribute xpath="/traders/trader_info[@id='1']/trader_items[@count='all']/item[@group='traderAlways']" name="count">1</setattribute> -->
+
+<!--================================
+	ITEMS ADDED TO TRADER STOCK LISTS
+	================================ -->
 	<!-- Include Snowberry & SuperCorn Seeds Rarely in Trader Items -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='seeds']">
 		<item name="plantedSnowberry1" prob="0.2"/>
@@ -20,6 +26,7 @@
 	</append>
 
 	<!-- Include Bicycle (low level) Rarely in Trader Items -->
+	<remove xpath="//item[contains(@name, 'Placeable')]"/> <!-- potential duplication clean up -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']">
 		<item name="vehicleBicyclePlaceable" count="1" prob="0.3" quality="1"/>
 	</append>
@@ -37,19 +44,21 @@
 		<item name="vehicleGyrocopterPlaceable" prob="0.02"/>
 	</append>
 
-	<!-- Include Bedroll & LandClaim as a new group to Traders --> 
-	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='decorativeBlinds']">
-		<trader_item_group name="sleepingbagsMovable" count="1">
-			<item name="bedroll"/>
-			<item name="keystoneBlock" prob="0.1"/>
-		</trader_item_group>
-	</insertAfter>
-
-	<!-- Add a few frames to Traders --> 
+	<!-- Add a few frames, ladders, and barbedwire to Trader's Construction Supplies -->
 	<append xpath="/traders/trader_item_groups/trader_item_group[@name='constructionSupplies']">
 		<item name="woodFrameBlock" count="10,100"/>
 		<item name="woodFrameRamp" count="5,40" prob="0.5"/>
 		<item name="rebarFrameRamp" count="5,40" prob="0.5"/>
+		<item name="barbedWireSheet" count="5,20" prob="0.5"/>
+		<item name="barbedFence" count="5,20" prob="0.3"/>
+		<item name="ladderWood" count="5,10" prob="0.5"/>
+		<item name="ladderMetal" count="5,10" prob="0.2"/>
+	</append>
+
+	<!-- Include LandClaim & Bedroll rarely in Trader's General Supplies --> 
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']">
+		<item name="bedroll" prob="0.3"/>
+		<item name="keystoneBlock" prob="0.1"/>
 	</append>
 
 </nocraftingchallenge>
