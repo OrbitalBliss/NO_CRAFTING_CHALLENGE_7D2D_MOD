@@ -66,8 +66,6 @@ Added in v1.1:
 - To Traders: Torches, Barbed Wire (both), Ladders
 
 - To Loot Lists: Frame Ramps, Bicycle (dumpsters rarely and lowlevel), Removed Rare Recipe Books, 
-
-- To Blocks: For woodPillar50, woodCNRRound, and woodCNRRoundTop the reinforced wooden & metalwood versions needed to be created so they could upgrade through those versions.
 	
 - Attributes/Perks:  Re-tooled Intellect to give an XP bonus, Removed ALL the Craftsmenship Perks.
    Gave LivingOffTheLand a new Level 1, which gives Double Wild Crops. (fixed menues on this an Intellect)
