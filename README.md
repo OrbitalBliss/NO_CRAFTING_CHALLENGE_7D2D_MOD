@@ -1,6 +1,6 @@
-No Crafting Challenge Mod -- for 7 Days to Die [Alpha 17.2]
+No Crafting Challenge Mod -- for 7 Days to Die [Alpha 17.3]
 ------------------------------------------------
-V1.0 by OrbitalBliss
+V1.1 by OrbitalBliss
 
 Welcome to the No Crafting Challenge Mod.  
 This Mod removes all crafting, and gives a slight bump to the Loot in regards to Food, Drink, and Medical Supplies.  
@@ -53,3 +53,24 @@ You should be ready to go.
 SPECIAL THANKS
 --------------------------
 Thanks to [JaWoodle on YouTube](https://www.youtube.com/channel/UCJNeiS810mGG98ctG45M1WA).  Your No-Crafting Challenge videos inspired me to make this mod in the first place.
+
+GOALS & OBSTACLES
+--------------------------
+These are the things I'd like to work out for the mod. [What the issues are]
+
+- Fix traderAlways item group to Always go off.... [Unsure why this is not the case]
+
+VERSION HISTORY
+--------------------------
+Added in v1.1:
+- To Traders: Torches, Barbed Wire (both), Ladders, Bicycle (rarely and low level)
+
+- To Loot Lists: Frame Ramps, Removed Rare Recipe Books
+
+- To Blocks: For woodPillar50, woodCNRRound, and woodCNRRoundTop the reinforced wooden & metalwood versions needed to be created so they could upgrade through those versions.
+	
+- Attributes/Perks:  Re-tooled Intellect to give an XP bonus, Removed ALL the Craftsmenship Perks.
+   Gave LivingOffTheLand a new Level 1, which gives Double Wild Crops. (fixed menues on this an Intellect)
+
+- Cleaned up somecoding; How Recipes were removed before, and cross-mod compatibility.
+   Also added the Read-Me to the Zip file.
