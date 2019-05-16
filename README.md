@@ -39,8 +39,6 @@ Add Vehicles to Traders (from Home Depot Mod)
 
 Add Bedroll to traders sell list.  Also, LandClaim Block (rarely).  
 
-Add other simple fixes (like previouly broken upgrades and repairing) from my Home Depot Mod. 
-
 
 HOW TO INSTALL
 --------------------------
