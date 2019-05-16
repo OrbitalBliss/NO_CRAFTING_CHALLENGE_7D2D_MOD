@@ -63,7 +63,7 @@ These are the things I'd like to work out for the mod. [What the issues are]
 VERSION HISTORY
 --------------------------
 Added in v1.1:
-- To Traders: Torches, Barbed Wire (both), Ladders, Bicycle (rarely and low level)
+- To Traders: Torches, Barbed Wire (both), Ladders
 
 - To Loot Lists: Frame Ramps, Bicycle (dumpsters rarely and lowlevel), Removed Rare Recipe Books, 
 
