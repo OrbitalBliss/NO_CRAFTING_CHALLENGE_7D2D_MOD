@@ -65,7 +65,7 @@ VERSION HISTORY
 Added in v1.1:
 - To Traders: Torches, Barbed Wire (both), Ladders, Bicycle (rarely and low level)
 
-- To Loot Lists: Frame Ramps, Removed Rare Recipe Books
+- To Loot Lists: Frame Ramps, Bicycle (dumpsters rarely and lowlevel), Removed Rare Recipe Books, 
 
 - To Blocks: For woodPillar50, woodCNRRound, and woodCNRRoundTop the reinforced wooden & metalwood versions needed to be created so they could upgrade through those versions.
 	
