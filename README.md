@@ -37,9 +37,9 @@ Add Vehicles to Traders (from Home Depot Mod)
 - Add all Vehicles to Traders secret stash locked behind high Bartering. 
 - Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.  
 
-Include Bedroll to traders sell list.  Also, LandClaim Block (rarely).  
+Add Bedroll to traders sell list.  Also, LandClaim Block (rarely).  
 
-Included other simple fixes (like previouly broken upgrades and repairing) from my Home Depot Mod. 
+Add other simple fixes (like previouly broken upgrades and repairing) from my Home Depot Mod. 
 
 
 HOW TO INSTALL
