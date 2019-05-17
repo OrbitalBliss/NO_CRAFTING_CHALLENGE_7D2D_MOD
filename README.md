@@ -48,6 +48,9 @@ Decompress this ZIP directly into your 7 Days to Die install directory.
 If you didn't have a "Mods" folder, this will create one.  
 You should be ready to go.  
 
+PLEASE ... Always backup your save folder if you are adding mods to pre-existing games.
+
+
 SPECIAL THANKS
 --------------------------
 Thanks to [JaWoodle on YouTube](https://www.youtube.com/channel/UCJNeiS810mGG98ctG45M1WA).  Your No-Crafting Challenge videos inspired me to make this mod in the first place.
