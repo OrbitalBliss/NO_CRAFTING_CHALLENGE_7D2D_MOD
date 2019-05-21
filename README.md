@@ -1,6 +1,6 @@
 No Crafting Challenge Mod -- for 7 Days to Die [Alpha 17.3]
 ------------------------------------------------
-V1.1 by OrbitalBliss
+V1.1.1 by OrbitalBliss
 
 Welcome to the No Crafting Challenge Mod.  
 This Mod removes all crafting, and gives a slight bump to the Loot in regards to Food, Drink, and Medical Supplies.  
@@ -73,3 +73,8 @@ Added in v1.1:
 
 - Cleaned up somecoding; How Recipes were removed before, and cross-mod compatibility.
    Also added the Read-Me to the Zip file.
+
+Added in v1.1.1:
+- BUG FIX: Healing could get dissabled... now that's fixed (you character may have to die once, sorry)
+
+- TRADER QUESTS: Removed Rare Recipe Books from Trader Quests.  Added rare low level bicycle to rewards.
