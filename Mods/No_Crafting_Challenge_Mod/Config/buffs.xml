@@ -4,11 +4,17 @@
 	FIX PHYSICIAN PERK
 	================================ -->
 	<!-- Remove Old Stuff -->
-<!-- NOT WORKING - NOT SURE WHY
 	<remove xpath="//triggered_effect[@cvar='healthPerkIncrease']"/>
 	<remove xpath="//triggered_effect[@cvar='medicPerkIncrease']"/>
--->
+
 	<!-- Add New Stuff -->
+	<append xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group">
+		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="healthPerkIncrease" operation="set" value="2"/>
+		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="medicPerkIncrease" operation="set" value="1"/>
+	</append>
+
+</nocraftingchallenge>
+
 <!-- NOT WORKING - NOT SURE WHY
 	<append xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group">
 		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="healthPerkIncrease" operation="set" value="2">
@@ -38,5 +44,3 @@
 			<requirement name="ProgressionLevel" progression_name="perkPhysician" operation="Equals" value="5"/></triggered_effect>
 	</append>
 -->
-
-</nocraftingchallenge>
