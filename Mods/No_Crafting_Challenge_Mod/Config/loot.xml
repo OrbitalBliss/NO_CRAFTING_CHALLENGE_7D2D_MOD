@@ -33,10 +33,20 @@
 	</append>
 
 <!--================================
-	REMOVE RARE RECIPE BOOKS FROM LOOT (Just so they don't make you sad when you find them)
+	REMOVE RARE RECIPE BOOKS FROM LOOT & QUEST REWARDS (Just so they don't make you sad when you find them)
 	================================ -->
 	<set xpath="/lootcontainers/lootcontainer[@id='38']/item[@group='shamwaySafe']/@group">shamwaySafeFiller</set>
 	<remove xpath="/lootcontainers/lootcontainer[@id='63']/item[@group='herbalRecipes']"/>
 	<set xpath="/lootcontainers/lootcontainer[@id='39']/item[@group='brewerySafe']/@group">brewerySafeFiller</set>
+
+	<remove xpath="/lootcontainers/lootgroup[@name='questSchematics']"/>
+	<append xpath="/lootcontainers">
+		<lootgroup name="questSchematics">
+			<item name="drinkJarBeer" count="5" prob="1.0"/>
+			<item name="drugHerbalAntibiotics" count="5" prob="1.0"/>
+			<item name="foodShamChowder" count="5" prob="1.0"/>
+			<item name="vehicleBicyclePlaceable" count="1" prob="0.3" quality="1,2"/>
+		</lootgroup>
+	</append>
 
 </nocraftingchallenge>
