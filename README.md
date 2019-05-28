@@ -78,3 +78,10 @@ Added in v1.1.1:
 - BUG FIX: Healing could get dissabled... now that's fixed (you character may have to die once, sorry)
 
 - TRADER QUESTS: Removed Rare Recipe Books from Trader Quests.  Added rare low level bicycle to rewards.
+
+Added in v1.2:
+- To Traders: Wood Bars (uncommonly), Removed Crafting Magazines, Increase trader items and swapped items, Increased cost of Land Claim Block
+
+- To Loot Lists: Removed Crafting Magazines
+
+- BUG FIX: Disabled Crafting Perks (instead of Removing them), which should increase compatibility with pre-existing games.
