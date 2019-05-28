@@ -1,14 +1,15 @@
 No Crafting Challenge Mod -- for 7 Days to Die [Alpha 17.3]
 ------------------------------------------------
-V1.1.1 by OrbitalBliss
+V1.2 by OrbitalBliss
 
 Welcome to the No Crafting Challenge Mod.  
-This Mod removes all crafting, and gives a slight bump to the Loot in regards to Food, Drink, and Medical Supplies.  
-The Trader gets a boost in those things as well, and can sell bedrolls.  
-Vehicles can show up at traders, but only poor quality Bicycles unless your Bartering is high enough.  
-Snowberries and Supercorn very rarely become options for farming.  
+This Mod removes all crafting... ALL crafting.  
+It also gives a slight bump to the Loot in regards to Food, Drink, and Medical Supplies, plus a few additions.  
+The Trader gets a boost in those things as well, and can sell a few things he previously did not.
+Some of these additions are far less common than others, or require higher Barter (like Vehicles).  
 And a number of small fixes (I borrowed from my Home Depot Mod).  
 
+This mod is designed to be installed on a fresh game, but should work when added to an ongoing game.
 This mod is intended to be played with all setting set to default, but you do you.
 
 I hope this fills out your players gaming experiences.  Have fun!!
@@ -17,27 +18,31 @@ I hope this fills out your players gaming experiences.  Have fun!!
 WHAT WAS DONE!?!
 ==================
 
-Removed ALL Recipes (and fixed resulting issues; broken scrapping and weapon/armor mod values)
+Removed ALL Recipes (and fixed resulting issues; broken scrapping and weapon/armor mod values, etc)
+
+Disabled ALL Craftsmaship Perks, and gave Living Off The Land a new 1st Rank ability.  
+Re-tooled Intellect to give an XP bonus (instead of Crafting bonus, of course)
 
 Starting Mission Overhaul:  
    1) Place Bedroll. (Added Bedroll to starting equipment)  
    2) Wear PlantFiber Clothes. (Added PlantFiber Clothes to rewards)  
    3) Find Trader
 
-Increase Food, Drink, and Medicine in Loot.
+Loot Modifications:
+   1) Increase Food, Drink, and Medicine in Loot.
+   2) Added Frame Ramps (both), and Added Bicycle (in dumpsters rarely and lowlevel).
+   3) Removed Rare Recipe Books & Removed Crafting Magazines.
 
-Increase Traders Food and Medical Sales.  
-- Trader (almost) always sells Bandages.  
-
-Add Snowberry & Supercorn seeds to Traders (Rarely).  
-- Also, fix Snowberry farming issues (from Home Depot Mod).  
-
-Add Vehicles to Traders (from Home Depot Mod)  
-- Add Bicycle to Traders (Rarely & low level)  
-- Add all Vehicles to Traders secret stash locked behind high Bartering. 
-- Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.  
-
-Add Bedroll to traders sell list.  Also, LandClaim Block (rarely).  
+Trader Modifcations:
+   1) Increase number of Trader items and amount of items swapped at restock.
+   2) Increase Traders Food and Medical Sales. Trader (almost) always sells Bandages. 
+   3) Added Torches, Barbed Wire (both), Ladders, Wood Bars, and Bedrolls.
+   4) Added (rarely) Snowberry & Supercorn seeds, Land Claim Blocks
+   5) Added Vehicldes
+   	a) Added Bicycle to Traders (Rarely & low level, also as possible quest reward)
+	b) Added all Vehicles to Traders secret stash locked behind high Bartering. 
+	c) Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.	
+   6) Removed Rare Recipe Books (quest reward) & Removed Crafting Magazines.
 
 
 HOW TO INSTALL
