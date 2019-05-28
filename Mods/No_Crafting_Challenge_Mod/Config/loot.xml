@@ -49,4 +49,14 @@
 		</lootgroup>
 	</append>
 
+<!--================================
+	REMOVE CRAFTING MAGAZINES FROM LOOT
+	================================ -->
+	<remove xpath="/lootcontainers/lootgroup[@name='perkMagazines']/item[@name='magazinePerkHammerForge']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='perkMagazines']/item[@name='magazinePerkGreaseMonkey']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='perkMagazines']/item[@name='magazinePerkAdvancedEngineering']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='perkMagazines']/item[@name='magazinePerkYeahScience']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='perkMagazines']/item[@name='magazinePerkPhysician']"/>
+	<remove xpath="/lootcontainers/lootgroup[@name='perkMagazines']/item[@name='magazinePerkMasterChef']"/>
+
 </nocraftingchallenge>

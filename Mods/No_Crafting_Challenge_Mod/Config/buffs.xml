@@ -1,18 +1,17 @@
 <nocraftingchallenge>
 
 <!--================================
-	FIX PHYSICIAN PERK
+	FIX PHYSICIAN PERK *shouldn't need this anymore because Physician is now disabled not removed.*
 	================================ -->
-	<!-- Remove Old Stuff -->
+<!-- 
 	<remove xpath="//triggered_effect[@cvar='healthPerkIncrease']"/>
 	<remove xpath="//triggered_effect[@cvar='medicPerkIncrease']"/>
 
-	<!-- Add New Stuff -->
 	<append xpath="/buffs/buff[@name='buffPerkAbilityUpdate']/effect_group">
 		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="healthPerkIncrease" operation="set" value="2"/>
 		<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="medicPerkIncrease" operation="set" value="1"/>
 	</append>
-
+-->
 </nocraftingchallenge>
 
 <!-- NOT WORKING - NOT SURE WHY

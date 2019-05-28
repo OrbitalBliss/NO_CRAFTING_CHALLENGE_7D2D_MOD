@@ -12,6 +12,10 @@
 			<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
 	</append>
 
+	<append xpath="/blocks/block[@name='keystoneBlock']">
+			<property name="EconomicValue" value="144"/>
+	</append>
+
 <!--================================
 	PUT WEIGHTS ON STUFF SO THEY CAN STILL BE SCRAPPED EVEN THOUGH ALL THE RECIPES ARE GONE
 	================================ -->
