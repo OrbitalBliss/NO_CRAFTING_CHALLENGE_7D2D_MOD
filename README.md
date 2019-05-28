@@ -9,7 +9,7 @@ The Trader gets a boost in those things as well, and can sell a few things he pr
 Some of these additions are far less common than others, or require higher Barter (like Vehicles).  
 And a number of small fixes (I borrowed from my Home Depot Mod).  
 
-This mod is designed to be installed on a fresh game, but should work when added to an ongoing game.
+This mod is designed to be installed on a fresh game, but should work when added to an ongoing game.  
 This mod is intended to be played with all setting set to default, but you do you.
 
 I hope this fills out your players gaming experiences.  Have fun!!
@@ -24,25 +24,25 @@ Disabled ALL Craftsmaship Perks, and gave Living Off The Land a new 1st Rank abi
 Re-tooled Intellect to give an XP bonus (instead of Crafting bonus, of course)
 
 Starting Mission Overhaul:  
-   1) Place Bedroll. (Added Bedroll to starting equipment)  
-   2) Wear PlantFiber Clothes. (Added PlantFiber Clothes to rewards)  
-   3) Find Trader
+- Place Bedroll. (Added Bedroll to starting equipment)  
+- Wear PlantFiber Clothes. (Added PlantFiber Clothes to rewards)  
+- Find Trader
 
 Loot Modifications:
-   1) Increase Food, Drink, and Medicine in Loot.
-   2) Added Frame Ramps (both), and Added Bicycle (in dumpsters rarely and lowlevel).
-   3) Removed Rare Recipe Books & Removed Crafting Magazines.
+- Increase Food, Drink, and Medicine in Loot.
+- Added Frame Ramps (both), and Added Bicycle (in dumpsters rarely and lowlevel).
+- Removed Rare Recipe Books & Removed Crafting Magazines.
 
 Trader Modifcations:
-   1) Increase number of Trader items and amount of items swapped at restock.
-   2) Increase Traders Food and Medical Sales. Trader (almost) always sells Bandages. 
-   3) Added Torches, Barbed Wire (both), Ladders, Wood Bars, and Bedrolls.
-   4) Added (rarely) Snowberry & Supercorn seeds, Land Claim Blocks
-   5) Added Vehicldes
-   	a) Added Bicycle to Traders (Rarely & low level, also as possible quest reward)
-	b) Added all Vehicles to Traders secret stash locked behind high Bartering. 
-	c) Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.	
-   6) Removed Rare Recipe Books (quest reward) & Removed Crafting Magazines.
+- Increase number of Trader items and amount of items swapped at restock.
+- Increase Traders Food and Medical Sales. Trader (almost) always sells Bandages. 
+- Added Torches, Barbed Wire (both), Ladders, Wood Bars, and Bedrolls.
+- Added (rarely) Snowberry & Supercorn seeds, Land Claim Blocks
+- Added Vehicldes
+	- Added Bicycle to Traders (Rarely & low level, also as possible quest reward)
+	- Added all Vehicles to Traders secret stash locked behind high Bartering. 
+	- Reduced the Economic Value of vehicles... so they don't cost 350,000 dukes.	
+- Removed Rare Recipe Books (quest reward) & Removed Crafting Magazines.
 
 
 HOW TO INSTALL
